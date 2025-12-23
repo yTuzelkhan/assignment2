@@ -1,4 +1,4 @@
-abstract class Vehicle {
+abstract class Vehicle implements Servicable {
     protected int id;
     protected static int idGen=1;
     protected String model;

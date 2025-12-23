@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements Servicable {
+public class Car extends Vehicle  {
     protected int numberOfDoors;
 
     public Car(String model, int year, double basePrice, int numberOfDoors) {
